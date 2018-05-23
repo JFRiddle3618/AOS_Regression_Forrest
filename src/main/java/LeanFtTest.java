@@ -88,7 +88,8 @@ public class LeanFtTest extends UnitTestClassBase {
 
         // Get the label of the SPEAKERS object
         String label_text = browser.describe(Link.class, new LinkDescription.Builder()
-                .cssSelector("div#SpeakersImg > div > span")
+                .cssSelector("span#speakersTxt")
+                .innerText("SPEAKERS")
                 .tagName("SPAN").build()).getInnerText();
 
         // Build up a verification for the SPEAKERS text
@@ -115,8 +116,6 @@ public class LeanFtTest extends UnitTestClassBase {
         // Report result to JUnit framework
         assertTrue("[AOS Homepage] Expected: SPEAKERS, Actual: " + label_text, label_says_SPEAKERS);
     }
-
-
 
     @Test
     public void testLaptops() throws GeneralLeanFtException  {
