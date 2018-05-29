@@ -224,6 +224,7 @@ public class LeanFtTest extends UnitTestClassBase {
                 .innerText("dvantage ")
                 .tagName("SPAN").build());
 
+        dvantageWebElement.highlight();
         dvantageWebElement.click();
 
     }
