@@ -221,11 +221,8 @@ public class LeanFtTest extends UnitTestClassBase {
 
         // Go Home
 
-        WebElement dvantageWebElement = browser.describe(WebElement.class, new WebElementDescription.Builder()
-                .innerText("dvantage ")
-                .tagName("SPAN").build());
+        WebElement dvantageWebElement = browser.describe(WebElement.class, new XPathDescription("//HEDER[5]/NAV[1]/DIV[1]/A[@roll=\"link\"][1]/SPAN[1]"));
 
-        dvantageWebElement.highlight();
         dvantageWebElement.click();
 
         browser.close();
