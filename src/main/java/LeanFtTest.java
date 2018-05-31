@@ -224,7 +224,7 @@ public class LeanFtTest extends UnitTestClassBase {
           //      .innerText("dvantage ")
             //    .tagName("SPAN").build());
         WebElement dvantageWebElement = browser.describe(WebElement.class, new WebElementDescription.Builder()
-                .innerText("dvantage ")
+                .innerText("dvantag ")
                 .tagName("SPAN").build());
 
 //hello
