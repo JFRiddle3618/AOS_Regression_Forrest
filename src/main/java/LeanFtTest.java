@@ -217,11 +217,11 @@ public class LeanFtTest extends UnitTestClassBase {
         browser.describe(WebElement.class, new WebElementDescription.Builder()
                 .tagName("LI").innerText("SOLD OUT SHOP NOW Logitech USB Headset H390 $39.99 ").build()).click();
         browser.describe(Link.class, new LinkDescription.Builder()
-                .tagName("A").innerText("HEADPHONES ").build()).click();
+                .tagName("A").innerText("HEADPHOES ").build()).click();
 
         // Go Home
 
-
+//
 
 //hello
         dvantageWebElement.highlight();
