@@ -220,12 +220,8 @@ public class LeanFtTest extends UnitTestClassBase {
                 .tagName("A").innerText("HEADPHONES ").build()).click();
 
         // Go Home
-        //WebElement dvantageWebElement = browser.describe(WebElement.class, new WebElementDescription.Builder()
-          //      .innerText("dvantage ")
-            //    .tagName("SPAN").build());
-        WebElement dvantageWebElement = browser.describe(WebElement.class, new WebElementDescription.Builder()
-                .innerText("dvantage ")
-                .tagName("SPAN").build());
+
+
 
 //hello
         dvantageWebElement.highlight();
